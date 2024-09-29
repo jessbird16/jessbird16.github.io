@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightskyblue;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: Pacifico, Helvetica;
+    color: white;
+    font-size: 35px;
+    text-shadow: 
+    4px 4px 0px black,
+    -1px 1px 0px black,
+    4px -4px 0px black,
+    -1px -1px 0px black;
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 90%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 80%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > header {
+    background-color: darkblue;
+    color: white;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    font-size: 15px;
+}
+
+#main-header {
+    display: flex;
+    height: 11vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body > footer > h2 {
+    margin-left: 20px;
+}
+
+body > footer {
+    height: 11vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#footer-ul > div > li {
+    margin-left: 10px;
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+body > footer > section > nav > ul {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 25vw;
+    height: 20vw;
+}
